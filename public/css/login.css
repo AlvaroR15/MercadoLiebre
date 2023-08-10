@@ -1,0 +1,87 @@
+main {
+    width: 90vw;
+    padding: 3vh 0;
+    margin: auto;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+main form {
+    margin: 3vw;
+}
+
+main h2 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main input[type="text"], input[type="password"] {
+    color: #555;
+    display: block;
+    width: 90%;
+    padding: 1vh;
+    margin: auto;
+    margin-bottom: 5vh;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #999;
+}
+button[type="submit"] {
+    display: block;
+    margin: auto;
+    width: 90%;
+    background: #1259c3;
+    color: #fff;
+    font-size: .8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s
+}
+
+button[type="submit"]:hover {
+    background-color: #0022AA;
+}
+
+
+@media (min-width: 768px) {
+    main {
+        width: 80vw;
+        margin: 5vw auto;
+        padding: 5vw 0;
+    }
+
+    main form {
+        margin: 2vw;
+    }
+
+    main form input[type="text"], input[type="password"] {
+        font-size: .9rem;
+    }
+
+    main form button[type="submit"] {
+        padding: 12px 0;
+    }
+
+}
+
+@media (min-width: 1266px) {
+    main {
+        width: 50vw;
+        margin: auto;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    main form input[type="text"], input[type="password"] {
+        padding: 1.1vw;
+        font-size: 1.1rem;
+    }
+    main form button[type="submit"] {
+        font-size: 1rem;
+    }
+}
